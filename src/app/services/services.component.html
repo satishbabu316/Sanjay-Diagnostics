@@ -1,0 +1,29 @@
+
+
+<div class="container bg-secondary">
+    <div class="icon-container">
+        <h2 class="text-center my-4">Our Clinical Laboratory Services</h2>
+        <i class="fa fa-home home-icon" (click)="goToHome()"></i>
+    </div>
+    
+    <div class="row">
+      <div class="col-md-4 mb-4" *ngFor="let service of services">
+        <div class="card h-100">
+          <div class="card-body">
+            <h5 class="card-title">{{service.name}}</h5>
+            <ul>
+              <li *ngFor="let item of service.items">{{item}}</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+        <button class="btn btn-primary" routerLink="/contact">Contact Us</button>
+    <br><br>
+    
+</div>
+
+
+  
+  

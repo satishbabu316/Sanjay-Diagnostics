@@ -1,0 +1,27 @@
+<div class="container  bg-secondary">
+    <div class="book-top">
+        <h2 class="heading">Book Lab Tests Online</h2>
+        <i class="fa fa-home home-icon" routerLink="/home"></i>
+    </div>
+    
+    <div class="cards-container">
+      <!-- Repeat this card structure 15 times -->
+      
+        
+            <div class="card" *ngFor="let test of tests" >
+                <h3>{{ test.name }}</h3>
+                
+                <div class="card-botm">
+                    <p> {{ test.price }}</p>
+                    <button (click)="toggleBooking(test.id)" class="btn btn-primary">
+                        {{ test.booked ? 'Remove' : 'Book Test' }}
+                      </button>
+                </div>
+            </div>
+            
+    </div>
+    <div >
+        <button class="load-btn">Load More</button>
+    </div>
+  </div>
+  

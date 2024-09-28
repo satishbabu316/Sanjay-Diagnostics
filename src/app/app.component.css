@@ -1,0 +1,60 @@
+.navbar-brand {
+    color: rgb(4, 4, 155);
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.navbar-brand img {
+    margin-right: 5px;
+    margin-left: 10px;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+  
+/* Align the navbar items to the right */
+.navbar-nav {
+margin-left: auto;
+}
+
+/* Change navbar background and text color if needed */
+.navbar {
+background-color: #f8f9fa;
+}
+
+
+.navbar-nav .nav-link {
+color: rgb(4, 4, 155);
+font-weight: bold;
+font-size: 20px;
+margin-right: 20px;
+}
+
+.navbar-nav .nav-link:hover {
+color: #007bff;
+}
+.navbar-nav span {
+    margin-right: 20px;
+    margin-top: 10px;
+}
+/*cart-icon and badge*/
+
+.nav-item .badge {
+    position: absolute;
+    transform: translate(50%, -50%);
+    background-color: #ff0000; /* Red background for the badge */
+    color: white;
+    border-radius: 50%;
+    padding: 0.25em 0.5em;
+    font-size: 0.75rem; /* Small text size */
+   
+margin-left: -15px;    
+}
+
+/* .nav-item .icon {
+    margin-left: 20px;
+} */
+
+.fa-shopping-cart {
+font-size: 1.5rem; /* Size of the cart icon */
+}
+  

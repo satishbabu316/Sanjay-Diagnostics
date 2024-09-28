@@ -1,0 +1,50 @@
+.container {
+    margin-top: 40px;
+    
+    border-radius: 8px;
+}
+
+.card {
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+border-radius: 8px;
+background-color: #f8f9fa;
+}
+
+.card-title {
+font-weight: bold;
+color: #0056b3;
+}
+
+ul {
+padding-left: 16px;
+font-weight: 500;
+}
+  
+/* home-icon*/
+
+.icon-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.icon-container h2 {
+    font-size: 30px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.home-icon {
+font-size: 24px;
+cursor: pointer;
+color: #fff; /* Color can be customized */
+margin-top: 40px;
+margin-right: 40px;
+}
+
+.home-icon:hover {
+color: #c4dbf3; /* Change color on hover */
+}
+  
+

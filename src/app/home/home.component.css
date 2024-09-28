@@ -1,0 +1,92 @@
+
+/*caurosel*/
+
+/* Set the height of the carousel */
+.carousel-inner img {
+    height: 400px;
+  }
+  
+/* Add some padding to the description */
+.col-md-6 {
+padding: 20px;
+}
+
+h2 {
+color: #007bff;
+font-weight: bold;
+}
+  
+/*cards*/
+.card-price {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.card-heading {
+    color: #fff;
+    font-size: 30px;
+}
+
+.card-body:hover {
+    background-color: rgb(235, 229, 229);
+    border-radius: 5px;
+    border: none;
+}
+
+/*Footer*/
+
+.footer {
+    background-color: #333; /* Dark background for the footer */
+    color: white; /* White text color */
+    padding: 20px 0;
+}
+
+.footer-content {
+display: flex; /* Use flexbox to align items side by side */
+justify-content: space-between; /* Space between the two sections */
+max-width: 1200px; /* Max width of the footer */
+margin: auto; /* Center the footer */
+}
+
+.contact-info,
+.quick-links {
+flex: 1; /* Allow both sections to take equal space */
+padding: 0 20px; /* Horizontal padding for spacing */
+}
+
+.quick-links ul {
+list-style-type: none; /* Remove bullets */
+padding: 0; /* Remove padding */
+}
+
+.quick-links ul li {
+margin: 5px 0;
+}
+
+.quick-links ul li a {
+color: white; /* Link color */
+text-decoration: none; /* No underline */
+}
+
+.quick-links ul li a:hover {
+text-decoration: underline; /* Underline on hover */
+}
+
+.social-media-icons {
+    display: flex; /* Use flexbox for horizontal alignment */
+    gap: 10px; /* Space between icons */
+    margin-top: 10px; /* Space above the social media section */
+}
+
+.social-media-icons img {
+width: 40px; /* Set a consistent width for icons */
+height: 40px; /* Set a consistent height for icons */
+transition: transform 0.2s; /* Smooth transition for hover effect */
+}
+
+.social-media-icons img:hover {
+transform: scale(1.1); /* Scale up on hover */
+}
+  
+
